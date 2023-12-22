@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --task=2 --lr=5e-5 --batch_size=64 --epoch=3 --data_dir="data" --model_type="CNN"
